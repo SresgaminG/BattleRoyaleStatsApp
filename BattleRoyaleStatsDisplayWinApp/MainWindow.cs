@@ -11,11 +11,13 @@ using System.Drawing;
 
 namespace BattleRoyaleStatsDisplayWinApp
 {
-    public partial class Form1 : Form
+    public partial class MainWindow : Form
     {
+        private ArmaMuteHelper globalKey = new ArmaMuteHelper();
+
         private string APIUrl = "http://battleroyalegames.com/leaderboard/api.php?steamid={0}";
 
-        public Form1()
+        public MainWindow()
         {
             InitializeComponent();
         }
@@ -41,7 +43,8 @@ namespace BattleRoyaleStatsDisplayWinApp
             chkIncludeLabels.Parent = pbLogo;
             chkIncludeLabels.Location = pos;
             chkIncludeLabels.BackColor = Color.Transparent;
-            
+
+            globalKey.SetupGlobalKey();
         }
 
         private Timer timer;
@@ -188,7 +191,7 @@ namespace BattleRoyaleStatsDisplayWinApp
                 }
                 else
                 {
-                    MessageBox.Show("You Steam ID should only contain numbers.");
+                    MessageBox.Show("Your Steam ID should only contain numbers.");
                     txtSteamID.Focus();
                 }
             }
@@ -269,7 +272,7 @@ namespace BattleRoyaleStatsDisplayWinApp
         {
             if (System.Text.RegularExpressions.Regex.IsMatch(txtSteamID.Text, "[^0-9]"))
             {
-                MessageBox.Show("You Steam ID should only contain numbers.");
+                MessageBox.Show("Your Steam ID should only contain numbers.");
                 txtSteamID.Text.Remove(txtSteamID.Text.Length - 1);
             }
         }

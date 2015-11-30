@@ -16,5 +16,6 @@
 
 Version
 Current
+1.02	- Added Arma.Mute
 1.01	- Better Error handling
 1.0		- Initial Release of App

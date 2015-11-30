@@ -4,17 +4,17 @@
   <description asmv2:publisher="BattleRoyaleStatsDisplayWinApp" asmv2:product="BattleRoyaleStatsDisplayWinApp" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <deployment install="true" mapFileExtensions="true" />
   <compatibleFrameworks xmlns="urn:schemas-microsoft-com:clickonce.v2">
-    <framework targetVersion="4.5.2" profile="Full" supportedRuntime="4.0.30319" />
+    <framework targetVersion="4.5" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="BattleRoyaleStatsDisplayWinApp.exe.manifest" size="5067">
+    <dependentAssembly dependencyType="install" codebase="BattleRoyaleStatsDisplayWinApp.exe.manifest" size="8236">
       <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Xmi3TyMTnWKx3xHJM5z1QOGFThtmxTOn8PSdIAItDFo=</dsig:DigestValue>
+        <dsig:DigestValue>4qNjqkw5MLRR9a9USleEh0WVP0/QacazL2lbcBleWbA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
