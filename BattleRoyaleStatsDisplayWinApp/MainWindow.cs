@@ -14,8 +14,8 @@ namespace BattleRoyaleStatsDisplayWinApp
     public partial class MainWindow : Form
     {
         private ArmaMuteHelper globalKey = new ArmaMuteHelper();
-
-        private string APIUrl = "http://battleroyalegames.com/leaderboard/api.php?steamid={0}";
+        
+        private string APIUrl = "http://battleroyalegames.com/leaderboard/api.php?steamid={0}&reg";
 
         public MainWindow()
         {
@@ -45,6 +45,8 @@ namespace BattleRoyaleStatsDisplayWinApp
             chkIncludeLabels.BackColor = Color.Transparent;
 
             globalKey.SetupGlobalKey();
+
+            labelVersion.Text = string.Format("Version {0}", Application.ProductVersion.ToString());
         }
 
         private Timer timer;
@@ -119,14 +121,19 @@ namespace BattleRoyaleStatsDisplayWinApp
                             {
                                 strTop5Guns += String.Format("{0} : {1}  -  ", item.SelectToken("gun").ToString(), item.SelectToken("count").ToString());
                             }
-                            strTop5Guns = strTop5Guns.Substring(0, strTop5Guns.Length - 3);
+
+                            if (strTop5Guns.Length > 0)
+                                strTop5Guns = strTop5Guns.Substring(0, strTop5Guns.Length - 3);
+
                             // Kills Per Distance
                             JArray jarrKills = JArray.Parse(response.top_5_kills.ToString());
                             foreach (var item in jarrKills.Children())
                             {
                                 strTop5Distance += String.Format("{0} : {1}m  -  ", item.SelectToken("gun").ToString(), item.SelectToken("distance").ToString());
                             }
-                            strTop5Distance = strTop5Distance.Substring(0, strTop5Distance.Length - 3);
+
+                            if (strTop5Distance.Length > 0)
+                                strTop5Distance = strTop5Distance.Substring(0, strTop5Distance.Length - 3);
 
                             strAllData = string.Format("Wins: {0} | Losses: {1} | Win %: {2} | Kills: {3} | Kills Per Round: {4} | Kills By Gun: {11} | Kills By Distance: {5} | Win Points: {6} | Kill Points: {7} | Total Points {8} | Rank Name: {10} | Global Rank: {9} | ",
                                 strWins, strLosses, strWinPercentage, strKills, strKillsPerRound, strTop5Distance, strWinPoints, strKillPoints, strTotalPoints, strGlobalRank, strRankName, strTop5Guns);

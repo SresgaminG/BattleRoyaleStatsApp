@@ -68,6 +68,7 @@
             this.chkIncludeLabels = new System.Windows.Forms.CheckBox();
             this.pbLogo = new System.Windows.Forms.PictureBox();
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.labelVersion = new System.Windows.Forms.Label();
             this.pnlStats.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbLogo)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
@@ -238,9 +239,9 @@
             this.label4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(119)))), ((int)(((byte)(119)))), ((int)(((byte)(119)))));
             this.label4.Location = new System.Drawing.Point(26, 49);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 19);
+            this.label4.Size = new System.Drawing.Size(47, 19);
             this.label4.TabIndex = 15;
-            this.label4.Text = "WIINS";
+            this.label4.Text = "WINS";
             // 
             // label5
             // 
@@ -498,7 +499,17 @@
             this.pbLogo.TabIndex = 31;
             this.pbLogo.TabStop = false;
             // 
-            // Form1
+            // labelVersion
+            // 
+            this.labelVersion.AutoSize = true;
+            this.labelVersion.BackColor = System.Drawing.Color.Transparent;
+            this.labelVersion.Location = new System.Drawing.Point(25, 303);
+            this.labelVersion.Name = "labelVersion";
+            this.labelVersion.Size = new System.Drawing.Size(72, 13);
+            this.labelVersion.TabIndex = 32;
+            this.labelVersion.Text = "Version: 1.0.1";
+            // 
+            // MainWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -506,6 +517,7 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(562, 838);
+            this.Controls.Add(this.labelVersion);
             this.Controls.Add(this.txtRefreshRate);
             this.Controls.Add(this.chkIncludeLabels);
             this.Controls.Add(this.lblError);
@@ -517,10 +529,10 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pbLogo);
-            this.Font = new System.Drawing.Font("Bebas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(93)))), ((int)(((byte)(1)))), ((int)(((byte)(1)))));
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "Form1";
+            this.Name = "MainWindow";
             this.Padding = new System.Windows.Forms.Padding(0, 0, 0, 15);
             this.Text = "Battle Royale Stats By Keoto";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -573,6 +585,7 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.PictureBox pbLogo;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.Label labelVersion;
     }
 }
 
