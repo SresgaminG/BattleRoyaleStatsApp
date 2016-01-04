@@ -507,7 +507,7 @@
             this.labelVersion.Name = "labelVersion";
             this.labelVersion.Size = new System.Drawing.Size(72, 13);
             this.labelVersion.TabIndex = 32;
-            this.labelVersion.Text = "Version: 1.0.1";
+            this.labelVersion.Text = "Version: 1.0.2";
             // 
             // MainWindow
             // 
