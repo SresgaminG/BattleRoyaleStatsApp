@@ -16,5 +16,6 @@
 
 Version
 Current
-1.01	- Better Error handling
-1.0		- Initial Release of App
+1.0.1.0 - Added Arma3 Mute Support (F1 Key)
+1.01	  - Better Error handling
+1.0		  - Initial Release of App
