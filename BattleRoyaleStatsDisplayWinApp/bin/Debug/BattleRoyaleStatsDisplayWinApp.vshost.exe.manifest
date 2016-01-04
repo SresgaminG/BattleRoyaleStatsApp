@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="BattleRoyaleStatsDisplayWinApp.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="BattleRoyaleStatsDisplayWinApp.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,13 +43,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BattleRoyaleStatsDisplayWinApp.exe" size="473056">
-      <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>AJURQUAf4pGXJMFtS2xjMLa0jzOL2VCoVtycxSDkaTo=</dsig:DigestValue>
+        <dsig:DigestValue>0D9TKxa99ZGduj6/Qra/WoTdnBRBTx8kjMv4WzZLyio=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -137,13 +137,13 @@
       <dsig:DigestValue>k52PUVWdswfmkbo+1I7vawKMwCozbSN6YrTgSyK+dLk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ReadMe.txt" size="699">
+  <file name="ReadMe.txt" size="723">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>B9gqkXw9UAURhjF3LnI4t0vKvxILB6Vf/OkGzwg4hJo=</dsig:DigestValue>
+      <dsig:DigestValue>FqHKIDJIW9lDttmszIri7gR9RGw2e5Hucs2eJoc2RbI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\br-stats-logo.png" size="71056">

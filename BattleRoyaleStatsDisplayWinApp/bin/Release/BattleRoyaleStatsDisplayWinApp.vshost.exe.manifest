@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="BattleRoyaleStatsDisplayWinApp.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="BattleRoyaleStatsDisplayWinApp.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -42,14 +42,38 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BattleRoyaleStatsDisplayWinApp.exe" size="470496">
-      <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="BattleRoyaleStatsDisplayWinApp.exe" size="472544">
+      <assemblyIdentity name="BattleRoyaleStatsDisplayWinApp" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>BrkmTgR+uFBdqrjD5ny9kS6gCXtRlPNkeMd1oxy5HMI=</dsig:DigestValue>
+        <dsig:DigestValue>INHxKcfZJi1aBMbt0gJkDJA/nbPU3yYSp3qyJ6BymE0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="CoreAudio.dll" size="73728">
+      <assemblyIdentity name="CoreAudio" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>hKo7MrrXyxc6e1v6oFGSpW0rkC7cAjen6NELjnbN2YY=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Gma.System.MouseKeyHook.dll" size="49152">
+      <assemblyIdentity name="Gma.System.MouseKeyHook" version="5.1.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>2ZCCgreiXMNIR+zK1XsJSsqCA4VInMKF0sMSmHazs1s=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -65,22 +89,61 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="BattleRoyaleStatsDisplayWinApp.exe.config" size="189">
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="SresgaminG.Arma3.dll" size="8192">
+      <assemblyIdentity name="SresgaminG.Arma3" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>k52PUVWdswfmkbo+1I7vawKMwCozbSN6YrTgSyK+dLk=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="BattleRoyaleStatsDisplayWinApp.exe.config" size="184">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
+      <dsig:DigestValue>FqWy0dfMmRS85zkU1NlW07p6LsNOPUHodvLiZcFdgJY=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ReadMe.txt" size="699">
+  <file name="Objects\CoreAudio.dll" size="73728">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>B9gqkXw9UAURhjF3LnI4t0vKvxILB6Vf/OkGzwg4hJo=</dsig:DigestValue>
+      <dsig:DigestValue>hKo7MrrXyxc6e1v6oFGSpW0rkC7cAjen6NELjnbN2YY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Objects\Gma.System.MouseKeyHook.dll" size="49152">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>2ZCCgreiXMNIR+zK1XsJSsqCA4VInMKF0sMSmHazs1s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Objects\SresgaminG.Arma3.dll" size="8192">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>k52PUVWdswfmkbo+1I7vawKMwCozbSN6YrTgSyK+dLk=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ReadMe.txt" size="723">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>FqHKIDJIW9lDttmszIri7gR9RGw2e5Hucs2eJoc2RbI=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\br-stats-logo.png" size="71056">
